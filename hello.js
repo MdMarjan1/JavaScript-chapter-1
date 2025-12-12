@@ -1,5 +1,5 @@
-var age = 39;
-console.log(age);
+console.log(isNaN('marjan'))
+console.log(65);
+console.log(isNaN(65));
 
-var name = 'al amin';
-console.log(name);
+
