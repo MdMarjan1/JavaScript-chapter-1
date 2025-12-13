@@ -65,7 +65,6 @@ if(mark>=90 && mark<=100){
 const yourMark = 15;
 const friendMark = 30;
 if(yourMark>80){
-    // console.log("then go for a lunch");
     if(friendMark>80){
         console.log("then go for a lunch")
     }else if(friendMark<80 && friendMark>=60){
