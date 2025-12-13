@@ -73,4 +73,64 @@
 
 
 //problem 4
+// const yourMark = 15;
+// const friendMark = 30;
+// if(yourMark>80){
+//     // console.log("then go for a lunch");
+//     if(friendMark>80){
+//         console.log("then go for a lunch")
+//     }else if(friendMark<80 && friendMark>=60){
+//         console.log("good luck next time.");
+//     }else if(friendMark<60 && friendMark>=40){
+//         console.log("keep your friend's message unseen");
+//     }else if(friendMark<40){
+//         console.log("block your friend");
+//     }
+// }
+// else{
+//     console.log("go to home and sleep and act sad");
+// }
+
+
+// problem 5
+// if else
+// let num1 = 20;
+// let num2 = 15;
+// let result;
+
+// if(num1>num2){
+//     result= num1*2;
+// }else{
+//     result=num1+num2;
+// }
+// console.log(result);
+
+//ternary op
+let num1 = 25;
+let num2 = 15;
+var result = num1>num2 ? num1*2 : num1+num2;
+console.log(result);  
+
+// problem 6
+// ticket fare calculator
+
+var age = 50;
+var fare = 800;
+var isStudent = true;
+if (age < 10){
+    console.log("ticket free");
+}
+else if(age >= 60){
+    var discount = fare*15/100;
+    var paidMoney = discount-fare;
+    console.log(paidMoney,"citizens 15%");
+
+}else if(isStudent === true){
+    var discount = fare*50/100;
+    var paidMoney = discount-fare;
+    console.log(paidMoney,"student 50%");
+}
+else{
+    console.log("you will pay 800tk")
+}
 
