@@ -48,6 +48,24 @@ let ab6 = [1, 11, 22, 33, 44, 55]
 ab6[1]=99;
 console.log(ab6); // 1, 99, 22, 33, 44, 55 
 
+let ab7 = ['apple', 'mango', 'banana', 'orange']
+let ax = ab7[3]; 
+console.log(ax); //Orange
+
+let ab8 = ['apple', 'mango', 'banana', 'orange']
+console.log(ab7[3]); // orange
+
+
+let ab9 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(ab9);
+
+let ab10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ab10[12] = 20;
+console.log(ab10); // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, <2 empty items>, 20
+
+
+
+
 
 
 
