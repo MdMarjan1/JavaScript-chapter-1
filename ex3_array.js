@@ -17,7 +17,6 @@
 // touristPlace.pop();
 // console.log(touristPlace);
 
-
 let touristPlace = ['coxsbazar', 'sylhet', 'sajek']
 touristPlace.unshift('rangamati')
 touristPlace.push('sonargaw', 'moynamoti')
@@ -39,3 +38,9 @@ let df = { name: "JS" };
 console.log(Array.isArray(ed)); // true
 console.log(Array.isArray(bf)); // false
 console.log(Array.isArray(df)); // false
+
+//problem 5
+let tourist = ['coxsbazar', 'sylhet', 'sajek']
+let aa = [55, 44, 33];
+let cOm=tourist.concat(aa);
+console.log(cOm); // 'coxsbazar', 'sylhet', 'sajek', 55, 44, 33 
