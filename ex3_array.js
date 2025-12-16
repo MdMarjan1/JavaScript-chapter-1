@@ -1,9 +1,9 @@
 
 // problem 1
-// let fruits = ['apple', 'mango', 'banana', 'orange', 'dragon']
-// console.log(fruits[3]); //orange
-// fruits[2]='jambura';
-// console.log(fruits);  //'apple', 'mango', 'jambura', 'orange', 'dragon'
+let fruits = ['apple', 'mango', 'banana', 'orange', 'dragon']
+console.log(fruits[3]); //orange
+fruits[2]='jambura';
+console.log(fruits);  //'apple', 'mango', 'jambura', 'orange', 'dragon'
 
 
 // problem 2
