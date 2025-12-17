@@ -44,3 +44,5 @@ let tourist = ['coxsbazar', 'sylhet', 'sajek']
 let aa = [55, 44, 33];
 let cOm=tourist.concat(aa);
 console.log(cOm); // 'coxsbazar', 'sylhet', 'sajek', 55, 44, 33 
+
+``
