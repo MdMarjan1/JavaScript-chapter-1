@@ -17,3 +17,7 @@ console.log(Number.parseInt(cO1));
 
 let a10 = '45.461';
 console.log(Number.parseFloat(a10)); // convert string to float
+
+
+
+
