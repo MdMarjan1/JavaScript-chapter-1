@@ -68,3 +68,23 @@ const colors = ['red', 'blue', 'green', 'yellow', 'orange']
 
 //  console.log(reverse_number);
 
+
+
+// // Problem 7
+// const number = [12, 98, 5, 41, 23, 78, 46];
+// for(let sTart = 0; sTart<number.length; sTart++){
+//     if(number[sTart]%2 == 0 ){
+//         console.log(number[sTart]);
+//     }
+// }
+
+// // Problem  8
+ var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
+var rr = "";
+for(var w of numbers){
+    rr=rr + w;
+    
+}
+console.log(rr);
+
+
