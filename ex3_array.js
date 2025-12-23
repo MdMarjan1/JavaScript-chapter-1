@@ -45,15 +45,26 @@
 // let cOm=tourist.concat(aa);
 // console.log(cOm); // 'coxsbazar', 'sylhet', 'sajek', 55, 44, 33 
 
+
+// // Problem  6
 const colors = ['red', 'blue', 'green', 'yellow', 'orange']
 // const xy = colors.reverse();
 // console.log(xy);
 
-let dd = []
-for(let x of colors){
-   // console.log(x);
-    dd.unshift()
+// let dd = []
+// for(let x of colors){
+//    // console.log(x);
+//     dd.unshift()
 
-}
-console.log(dd);
- 
+// }
+// console.log(dd);
+
+// let reverse_number =[];
+// for(let i = 0; i<colors.length; i++){
+//     let sd = colors[i];
+//     reverse_number.unshift(sd);
+//     //console.log(reverse_number);
+// }
+
+//  console.log(reverse_number);
+
