@@ -23,7 +23,7 @@
 // }
 // sameOfArray(a5);
 
-// let a10 = [2, 3, 5]
+//let a10 = [2, 3, 5]
 // function totalArrray (ars){
 //     var sum = 0
 //     for(let a11 = 0; a11 < ars.length; a11++){
@@ -31,7 +31,7 @@
 //     }
 //     console.log(sum)
 // }
-// totalArrray(a10);
+// totalArrray([1,2,3]);
 
 
 // function suMs(num){
@@ -70,18 +70,35 @@
 //     let tot_Sum = doMath(60,20);
 //     console.log(tot_Sum);
 
-function isEven(number) {
-    if(number % 2 == 0){
-        return true;
+// function isEven(number) {
+//     if(number % 2 === 0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// let qa = isEven(6);
+// console.log(qa);
+
+// let ba = isEven(95);
+// console.log(ba);
+
+function sumOfnum(numbers){
+    let sumss = 0
+    for(let number of numbers){
+        sumss+=number
+       // return sumss
+
     }
-    else{
-        return false;
-    }
+  //  console.log(sumss)
+    return sumss
 }
-let qa = isEven(6);
-console.log(qa);
+// sumOfnum([1, 2, 3])
+let ss =[1, 2, 3, 4]
+let tox = sumOfnum(ss);
+console.log(tox);
 
-let ba = isEven(95);
-console.log(ba);
-
-
+let df =[2,5]
+let fox = sumOfnum(df)
+console.log(fox);
