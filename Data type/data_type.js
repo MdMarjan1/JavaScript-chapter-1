@@ -14,6 +14,5 @@
 
 
 // Object
-// 1. array
-// 2. aabject
+// 1. object
 // 3. Funtion
