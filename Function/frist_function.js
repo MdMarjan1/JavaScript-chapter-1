@@ -23,3 +23,65 @@
 // }
 // sameOfArray(a5);
 
+// let a10 = [2, 3, 5]
+// function totalArrray (ars){
+//     var sum = 0
+//     for(let a11 = 0; a11 < ars.length; a11++){
+//         sum+=ars[a11];
+//     }
+//     console.log(sum)
+// }
+// totalArrray(a10);
+
+
+// function suMs(num){
+//     let result = num * num;
+//     return result;
+// }
+  
+//     let level = suMs(5);
+//     console.log(level);
+
+// function differents(num1, num2){
+//     let gap = (num1 - num2);
+//     return gap
+// }
+//     let ages = differents(50, 20);
+//     console.log("age",ages);
+
+//     let level = differents(30,10);
+//     console.log("level",level);
+
+
+// function bill (price1, price2){
+//     return price1+price2
+// }
+//     let bills = bill(10, 50);
+//     console.log(bills);  // 60
+
+
+// function doMath (math1, math2){
+//     let tot = math1 + math2
+//     let tot1 = math1 - math2
+//     let tot2 = math1 * math2
+//     let tot3 = math1 / math2
+//     return tot;
+// }
+//     let tot_Sum = doMath(60,20);
+//     console.log(tot_Sum);
+
+function isEven(number) {
+    if(number % 2 == 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+let qa = isEven(6);
+console.log(qa);
+
+let ba = isEven(95);
+console.log(ba);
+
+
