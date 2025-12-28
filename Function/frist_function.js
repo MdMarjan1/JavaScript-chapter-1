@@ -8,11 +8,17 @@ function callName(){
 callName(); // 30
 
 
+
+
+
 function isName (a,b){
     var result = (a+b);
     console.log(result);
 }
 isName(10, 15); // 25
+
+
+
 
 let a5 = [1, 2, 3]
 function sameOfArray(arr){
@@ -23,7 +29,9 @@ function sameOfArray(arr){
 }
 sameOfArray(a5);
 
-let a10 = [2, 3, 5]
+
+
+// let a10 = [2, 3, 5]
 function totalArrray (ars){
     var sum = 0
     for(let a11 = 0; a11 < ars.length; a11++){
@@ -34,13 +42,17 @@ function totalArrray (ars){
 totalArrray([1,2,3]);
 
 
+
+
 function suMs(num){
     let result = num * num;
     return result;
 }
-  
     let level2 = suMs(5);
     console.log(level2);
+
+
+
 
 function differents(num1, num2){
     let gap = (num1 - num2);
@@ -48,9 +60,12 @@ function differents(num1, num2){
 }
     let ages = differents(50, 20);
     console.log("age",ages);
-
+// -------------------------------------
     let level = differents(30,10);
     console.log("level",level);
+
+
+
 
 
 function bill (price1, price2){
@@ -58,7 +73,6 @@ function bill (price1, price2){
 }
     let bills = bill(10, 50);
     console.log(bills);  // 60
-
 
 
 
@@ -86,7 +100,7 @@ function isEven(number) {
 }
 let qa = isEven(6);
 console.log(qa);
-
+// ----------------------
 let ba = isEven(95);
 console.log(ba);
 
@@ -104,11 +118,10 @@ function sumOfnum(numbers){
     return sumss
 }
 // sumOfnum([1, 2, 3])
-
 let ss =[1, 2, 3, 4]
 let tox = sumOfnum(ss);
 console.log(tox);
-
+// -----------------------------
 let df =[2,5]
 let fox = sumOfnum(df)
 console.log(fox);
