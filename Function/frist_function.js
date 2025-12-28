@@ -84,21 +84,38 @@
 // let ba = isEven(95);
 // console.log(ba);
 
-function sumOfnum(numbers){
-    let sumss = 0
-    for(let number of numbers){
-        sumss+=number
-       // return sumss
+// function sumOfnum(numbers){
+//     let sumss = 0
+//     for(let number of numbers){
+//         sumss+=number
+//        // return sumss
 
+//     }
+//   //  console.log(sumss)
+//     return sumss
+// }
+// // sumOfnum([1, 2, 3])
+// let ss =[1, 2, 3, 4]
+// let tox = sumOfnum(ss);
+// console.log(tox);
+
+// let df =[2,5]
+// let fox = sumOfnum(df)
+// console.log(fox);
+
+// sum all even number
+function sumOfarray(number){
+  let op = 0
+  for(num of number){
+    if(num % 2 === 0){
+     op+=num
     }
-  //  console.log(sumss)
-    return sumss
+  }
+  console.log(op)
+  return op
 }
-// sumOfnum([1, 2, 3])
-let ss =[1, 2, 3, 4]
-let tox = sumOfnum(ss);
-console.log(tox);
+sumOfarray([1,2,3,5,6,7,8]) // 16
+ 
+sumOfarray([2,5,6]) // 8
 
-let df =[2,5]
-let fox = sumOfnum(df)
-console.log(fox);
+sumOfarray([2,4,6]) // 12
