@@ -97,17 +97,13 @@ function sumOfnum(numbers){
     let sumss = 0
     for(let number of numbers){
         sumss+=number
-       // return sumss
+       // return sumss if you use return in the code will be wrong
 
     }
     console.log(sumss)
     return sumss
 }
-sumOfnum([1, 2, 3])
-
-
-
-
+// sumOfnum([1, 2, 3])
 
 let ss =[1, 2, 3, 4]
 let tox = sumOfnum(ss);
@@ -116,6 +112,10 @@ console.log(tox);
 let df =[2,5]
 let fox = sumOfnum(df)
 console.log(fox);
+
+
+
+
 
 // sum all even number
 function sumOfarray(number){
@@ -129,12 +129,12 @@ function sumOfarray(number){
   return op
 }
 sumOfarray([1,2,3,5,6,7,8]) // 16
- 
 sumOfarray([2,5,6]) // 8
-
 sumOfarray([2,4,6]) // 12
 
-// 
+
+
+
 function oddOfArray (numa){
   let odd = []
     for(let level of numa){
