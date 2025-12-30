@@ -11,4 +11,4 @@ function kmTomile(km){
     return km
 }
  let kilos = miTokm(25)
- console.log(kilos)
+ console.log(kilos);
