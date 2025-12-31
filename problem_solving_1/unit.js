@@ -25,7 +25,39 @@ function celTofah (tem){
 }
 
 let a02 = celTofah(25)
-console.log(a02)
+//console.log(a02)
+
+
+
+// Problem 02
+// ---------------------------------------------------------------
+//   function numberCheaking ( arr ){
+//     let sums = 0
+//     for(let a03 of arr){
+//         if(a03 === 5){
+//             sums++
+
+//         }
+//     }
+//     return sums
+//   }
+//   let tots = numberCheaking([5,6,11,12,98, 5])
+//   console.log(tots)
+// --------------------------------------------------------
+  function numberCheaking ( arr, arrTnum ){
+    let sums = 0
+    for(let a03 of arr){
+        if(a03 === arrTnum){
+            sums++
+
+        }
+    }
+    return sums
+  }
+  let tots = numberCheaking([5,6,11,12,98, 5, 6, 5], 5)
+  console.log(tots)
+// -------------------------------------------------------------
 
   
+
 
