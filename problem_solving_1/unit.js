@@ -86,12 +86,42 @@ function countVowel(word){
 
 }
 let tat = countVowel("education") //euaio
-console.log(tat)
+//console.log(tat)
 
 // --------------------------------------
 
 let rot = countVowel("spdfklnm")
-console.log(rot)
-  
+//console.log(rot)
+//----------------------------------------------
 
+
+// Problem 04
+//-----------------------------------
+function bigWord(words){
+    let word = words.split(" ")
+    let highs = ""
+    for(let so1 of word){
+        if(so1.length > highs.length){
+            highs = so1
+        }
+    }
+    return highs
+}
+  let big = bigWord(" I am learning Programming to become a programmer")
+ // console.log(big)
+
+
+//  Problem 05
+// -----------------------------
+function ranNumber(numb){
+    let x1 = Math.round(Math.random()*10+20)
+
+
+    return x1
+
+}
+let xox = ranNumber(5)
+console.log(xox)
+
+//console.log(Math.random())
 
