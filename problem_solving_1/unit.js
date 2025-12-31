@@ -55,9 +55,43 @@ let a02 = celTofah(25)
     return sums
   }
   let tots = numberCheaking([5,6,11,12,98, 5, 6, 5], 5)
-  console.log(tots)
+//   console.log(tots)
 // -------------------------------------------------------------
 
+
+
+
+// Problem 03
+// --------------------------------------------------------------
+function countVowel(word){
+    let aks = 0
+    for(let a05 of word){
+        if(a05 === 'a'){
+            aks++
+        }
+        else if(a05 === 'e'){
+            aks++
+        }
+        else if(a05 === 'i'){
+            aks++
+        }
+        else if(a05 === 'o'){
+            aks++
+        }
+        else if(a05 === 'u'){
+            aks++
+        }
+    }
+    return aks
+
+}
+let tat = countVowel("education") //euaio
+console.log(tat)
+
+// --------------------------------------
+
+let rot = countVowel("spdfklnm")
+console.log(rot)
   
 
 
