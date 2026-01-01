@@ -17,16 +17,45 @@
 
 //-------------------------------------------
 
-function heightsos(hil){
-    let iok= hil[0]
-    for(let kok of hil){
-        if(kok > iok){
-            iok = kok
-        }
-    }
-    return iok
+// function heightsos(hil){
+//     let iok= hil[0]
+//     for(let kok of hil){
+//         if(kok > iok){
+//             iok = kok
+//         }
+//     }
+//     return iok
+// }
+
+// let dox = [25, 30, 10, 5, 59, 85, 1005, 47];
+// let mazN = heightsos(dox)
+// console.log(mazN)
+
+
+// -----------------------------------------------
+
+// function woodcount(chairCount, tableCount, bedCount){
+//     let perChairwood = 3
+//     let pertablewood = 10
+//     let perBedwood = 50
+
+//     let totalChair = perChairwood * chairCount
+//     let totalTable = pertablewood * tableCount
+//     let totalperBedwood = perBedwood * bedCount
+
+//     let finalCount = totalChair + totalTable + totalperBedwood
+//     return finalCount
+
+
+// }
+
+// let totals = woodcount(3, 15, 50)
+// console.log(totals)
+
+// ----------------------------------------------------
+
+function CheapPhone(price){
+
 }
 
-let dox = [25, 30, 10, 5, 59, 85, 1005, 47];
-let mazN = heightsos(dox)
-console.log(mazN)
+let phnPrices = [2000, 10000, 10500, 9000, 100000]
