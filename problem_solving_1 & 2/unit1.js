@@ -114,6 +114,6 @@ function totalCost(costs){
 }
 
 let money = totalCost(products)
-console.log(money)
+console.log(money);
 
 // ----------------------------------------------------------
